@@ -15,3 +15,14 @@ function twoSum (numbers, target) {
     }   
     return result; 
 }
+
+
+var isPalindrome = function(x) {
+
+    var reverseStr = x.toString().split("").reverse().join("");
+    if(x == reverseStr){
+        return true;
+    }else{
+        return false;
+    };
+ };
