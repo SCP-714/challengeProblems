@@ -6,4 +6,5 @@ def my_function():
 
 
   if 5 > 2:
+    
   print("Five is greater than two!")
